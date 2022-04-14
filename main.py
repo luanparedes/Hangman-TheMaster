@@ -4,7 +4,7 @@ from kivy.core.window import Window
 
 
 #App size
-Window.minimum_width, Window.minimum_height = (300, 650)
+Window.minimum_width, Window.minimum_height = (300, 640)
 
 
 class MainApp(MDApp):

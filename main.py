@@ -3,7 +3,7 @@ from kivymd.app import MDApp
 from kivy.core.window import Window
 
 
-#App size
+# App size
 Window.minimum_width, Window.minimum_height = (300, 640)
 
 

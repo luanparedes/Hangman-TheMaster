@@ -1,8 +1,16 @@
 <InitialMenu>
     id: viewmodel
 
+    Image:
+        size_hint: 1, 1
+        source: 'assets/'
+        allow_stretch: True
+        keep_ratio: False
+
     FloatLayout:
         MDLabel:
             id: login_user
             text: 'TESTE'
+            color: 'red'
             orientation: 'horizontal'
+            size_hint: 1, 1

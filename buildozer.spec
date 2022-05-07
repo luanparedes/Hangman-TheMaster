@@ -44,7 +44,7 @@ requirements = python3, kivy, kivymd, sqlite3, virtualenv, pil
 # requirements.source.kivy = ../../kivy
 
 # (str) Presplash of the application
-presplash.filename = %(source.dir)s/assets/Sunnymoon_games.png
+presplash.filename = %(source.dir)s/assets/Sunnymoon_games_icon.png
 
 # (str) Icon of the application
 icon.filename = %(source.dir)s/assets/hangman_icon.png

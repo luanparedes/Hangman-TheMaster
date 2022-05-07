@@ -9,9 +9,24 @@
 
     FloatLayout:
         id: start_menu
+        size_hint: 1, 1
+        MDLabel:
+            id: app_name
+            text: "Hangman"
+            font_size: sp(100)
+            pos_hint: {'center_x':.72, 'center_y':.9}
+            #font_name: '/etc/fonts/Blenheim Signature'
+        MDLabel:
+            text: "The"
+            font_size: sp(50)
+            pos_hint: {'center_x':.95, 'center_y':.75}
+        MDLabel:
+            text: "Master"
+            font_size: sp(100)
+            pos_hint: {'center_x':.80, 'center_y':.63}
         MDFillRoundFlatButton:
             id: btn_enter
             text: 'PLAY NOW'
             md_bg_color: 0.5, 0.3, 1, 1
-            size_hint: .3, .06
+            size_hint: .5, .06
             pos_hint: {'center_x':.52, 'center_y':.15}
